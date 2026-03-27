@@ -1,0 +1,38 @@
+# COPY AND PASTE THESE COMMANDS IN COMMAND PROMPT
+# (Open Command Prompt, navigate to your project folder, and paste these one by one)
+
+cd "C:\Users\Akbari Nihar\Desktop\codeverse-3"
+
+mkdir src\main\java\com\codeverse
+mkdir src\main\java\com\codeverse\entity
+mkdir src\main\java\com\codeverse\repository
+mkdir src\main\java\com\codeverse\service
+mkdir src\main\java\com\codeverse\controller
+mkdir src\main\java\com\codeverse\config
+mkdir src\main\resources
+mkdir src\main\webapp\WEB-INF\views
+
+move CodeVerseApplication.java src\main\java\com\codeverse\
+move CodeVerseUserType.java src\main\java\com\codeverse\entity\
+move CodeVerseUser.java src\main\java\com\codeverse\entity\
+move CodeVerseCategory.java src\main\java\com\codeverse\entity\
+move CodeVerseHackathon.java src\main\java\com\codeverse\entity\
+move CodeVerseRegistration.java src\main\java\com\codeverse\entity\
+move CodeVerseUserRepository.java src\main\java\com\codeverse\repository\
+move CodeVerseUserTypeRepository.java src\main\java\com\codeverse\repository\
+move CodeVerseCategoryRepository.java src\main\java\com\codeverse\repository\
+move CodeVerseHackathonRepository.java src\main\java\com\codeverse\repository\
+move CodeVerseRegistrationRepository.java src\main\java\com\codeverse\repository\
+move CodeVerseUserService.java src\main\java\com\codeverse\service\
+move CodeVerseCategoryService.java src\main\java\com\codeverse\service\
+move CodeVerseHackathonService.java src\main\java\com\codeverse\service\
+move CodeVerseRegistrationService.java src\main\java\com\codeverse\service\
+move CodeVerseMailService.java src\main\java\com\codeverse\service\
+move CodeVerseSecurityConfig.java src\main\java\com\codeverse\config\
+move CodeVerseAuthController.java src\main\java\com\codeverse\controller\
+move CodeVerseAdminController.java src\main\java\com\codeverse\controller\
+move CodeVerseOrganizerController.java src\main\java\com\codeverse\controller\
+move CodeVerseParticipantController.java src\main\java\com\codeverse\controller\
+move application.properties src\main\resources\
+
+echo DONE! All files organized!
